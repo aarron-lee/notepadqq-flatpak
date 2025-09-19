@@ -56,7 +56,7 @@ Clone this repository, then checkout the right branch.
 ### Build
 
 ```
-$ flatpak-builder "build" "com.notepadqq.Notepadqq.yaml" --force-clean --install-deps-from="flathub"
+flatpak run org.flatpak.Builder build ./com.notepadqq.Notepadqq.yaml  --install-deps-from=flathub --force-clean --user --install
 ```
 
 ### Test
@@ -155,7 +155,7 @@ See [notepadqq-extensions](https://github.com/scx/notepadqq-extensions) for deta
 ### How to install an extension?
 
 1. Select `Extensions`, then `Install extensions`.
-2. Select a `*.nqqext` file, then press `Open`. 
+2. Select a `*.nqqext` file, then press `Open`.
 3. Press `Install` or `Update`.
 4. Press `OK`.
 5. Restart **Notepadqq**.
@@ -183,4 +183,3 @@ No, I only created the flatpak package for it.
 See also:
 
 * [GitHub repo](https://github.com/notepadqq/notepadqq)
-

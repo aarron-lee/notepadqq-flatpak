@@ -10,5 +10,3 @@ build-commands:
 modules:
   # CJK fonts:
   - google-droid-sans-fallback-full.yaml
-  - vlgothic-fonts.yaml
-  - naver-nanum-gothic-fonts.yaml
